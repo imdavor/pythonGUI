@@ -16,7 +16,7 @@ def speak():
 
 # Create Entry Widget
 my_entry = tb.Entry(
-    root, bootstyle="success", font=("Helvetica, 18"), foreground="white", # show="*"
+    root, bootstyle="success", font=("Helvetica, 18"), foreground="white", #show="*"
 )
 my_entry.pack(pady=20)
 
