@@ -17,7 +17,8 @@ my_meter = tb.Meter(
     subtext="Tkinter Learned",
     subtextfont=("Helvetica", 14),
     interactive=True,
-    textright="$"
+    textright="$",
+    stripethickness=10,
 )
 my_meter.pack(pady=50)
 
