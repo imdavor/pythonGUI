@@ -7,7 +7,7 @@ root.title("TTK Boostrap! Notebook tabs")
 root.iconbitmap('images/codemy.ico')
 root.geometry('500x350')
 
-my_notebook = tb.Notebook(root, bootstyle="info")
+my_notebook = tb.Notebook(root, style="light")
 my_notebook.pack(pady=10)
 
 tab1 = tb.Frame(my_notebook)
@@ -19,7 +19,7 @@ my_label.pack(pady=10)
 my_text = Text(tab1, width=70, height=10)
 my_text.pack(pady=10, padx=10)
 
-my_button = tb.Button(tab1, text="Click Me!", bootstyle="danger outline")
+my_button = tb.Button(tab1, text="Click Me!", style="danger outline")
 my_button.pack(pady=10)
 
 my_label2 = Label(tab2, text="Label number 2", font=("Helvetica", 18))
