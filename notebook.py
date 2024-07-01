@@ -25,6 +25,9 @@ my_button.pack(pady=10)
 my_label2 = Label(tab2, text="Label number 2", font=("Helvetica", 18))
 my_label2.pack(pady=10)
 
+my_text2 = Text(tab2, width=70, height=10)
+my_text2.pack(pady=10, padx=10)
+
 # add frames to notebook
 my_notebook.add(tab1, text="Tab 1")
 my_notebook.add(tab2, text="Tab 2")
